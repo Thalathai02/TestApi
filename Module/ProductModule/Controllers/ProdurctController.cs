@@ -1,11 +1,11 @@
 using AutoMapper;
 using backend.Database;
-using backend.Models;
-using backend.Services;
 using Microsoft.AspNetCore.Mvc;
-using backend.ViewModels;
+using backend.Module.ProductModule.Models;
+using backend.Module.ProductModule.Repository;
+using backend.Module.ProductModule.ViewModels;
 
-namespace backend.Controllers;
+namespace backend.Module.ProductModule.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -31,7 +31,7 @@ public class ProdurctController : ControllerBase
     }
 
     [HttpPost("InsertProduct")]
-    public Boolean InsertProduct(TbProduct tbProduct)
+    public bool InsertProduct(TbProduct tbProduct)
     {
         bool success = _product.InsertProduct(tbProduct) ? true : false;
 
@@ -39,14 +39,14 @@ public class ProdurctController : ControllerBase
     }
 
     [HttpPut("EditProduct/{id}")]
-    public Boolean EditProduct(TbProduct tbProduct, int id)
+    public bool EditProduct(TbProduct tbProduct, int id)
     {
         bool success = _product.EditProduct(tbProduct, id) ? true : false;
         return success;
     }
 
     [HttpDelete("DeleteProduct/{id}")]
-    public Boolean DeleteProduct(int id)
+    public bool DeleteProduct(int id)
     {
         bool success = _product.DeleteProduct(id) ? true : false;
         return success;

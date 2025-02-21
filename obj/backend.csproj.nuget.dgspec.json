@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {}
+    "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {
+    "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+        "projectUniqueName": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+        "projectPath": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
         "packagesPath": "C:\\Users\\ThalathaiDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\obj\\",
+        "outputPath": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\util\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:util\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\productmodule\\models\\tbproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\productmodule\\models\\tbproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\s3module\\controllers\\s3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\s3module\\controllers\\s3controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\s3module\\models\\tbs3model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\s3module\\models\\tbs3model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\s3module\\repository\\s3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\s3module\\repository\\s3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\s3module\\repository\\is3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\s3module\\repository\\is3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\installers\\swaggerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:installers\\swaggerinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\productmodule\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\productmodule\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\productmodule\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\productmodule\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\module\\productmodule\\controllers\\produrctcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:module\\productmodule\\controllers\\produrctcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3E14D01-144C-433D-BD5A-3C9B36616CD3}|backend.csproj|c:\\users\\thalathaidev\\desktop\\git\\testapi\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -18,8 +62,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "S3Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Repository\\S3Repository.cs",
+              "RelativeDocumentMoniker": "Module\\S3Module\\Repository\\S3Repository.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Repository\\S3Repository.cs",
+              "RelativeToolTip": "Module\\S3Module\\Repository\\S3Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:17:56.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IS3Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Repository\\IS3Repository.cs",
+              "RelativeDocumentMoniker": "Module\\S3Module\\Repository\\IS3Repository.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Repository\\IS3Repository.cs*",
+              "RelativeToolTip": "Module\\S3Module\\Repository\\IS3Repository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:17:35.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TbS3Model.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Models\\TbS3Model.cs",
+              "RelativeDocumentMoniker": "Module\\S3Module\\Models\\TbS3Model.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Models\\TbS3Model.cs*",
+              "RelativeToolTip": "Module\\S3Module\\Models\\TbS3Model.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:17:15.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "S3Controller.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Controllers\\S3Controller.cs",
+              "RelativeDocumentMoniker": "Module\\S3Module\\Controllers\\S3Controller.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\S3Module\\Controllers\\S3Controller.cs",
+              "RelativeToolTip": "Module\\S3Module\\Controllers\\S3Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:16:59.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SwaggerInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Installers\\SwaggerInstaller.cs",
+              "RelativeDocumentMoniker": "Installers\\SwaggerInstaller.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Installers\\SwaggerInstaller.cs",
+              "RelativeToolTip": "Installers\\SwaggerInstaller.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:15:19.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapping.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\util\\AutoMapping.cs",
+              "RelativeDocumentMoniker": "util\\AutoMapping.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\util\\AutoMapping.cs*",
+              "RelativeToolTip": "util\\AutoMapping.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:13:35.553Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -78,28 +200,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Module\\ProductModule\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Module\\ProductModule\\Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:10:13.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Module\\ProductModule\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Module\\ProductModule\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:09:07.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "backend",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+              "RelativeDocumentMoniker": "backend.csproj",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj*",
+              "RelativeToolTip": "backend.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-21T09:08:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TbProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Models\\TbProduct.cs",
+              "RelativeDocumentMoniker": "Module\\ProductModule\\Models\\TbProduct.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Models\\TbProduct.cs",
+              "RelativeToolTip": "Module\\ProductModule\\Models\\TbProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:57:37.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdurctController.cs",
+              "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Controllers\\ProdurctController.cs",
+              "RelativeDocumentMoniker": "Module\\ProductModule\\Controllers\\ProdurctController.cs",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Module\\ProductModule\\Controllers\\ProdurctController.cs*",
+              "RelativeToolTip": "Module\\ProductModule\\Controllers\\ProdurctController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:57:31.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Database\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Database\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Database\\DatabaseContext.cs*",
-              "RelativeToolTip": "Database\\DatabaseContext.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB8AAABHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\Database\\DatabaseContext.cs",
+              "RelativeToolTip": "Database\\DatabaseContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T08:54:20.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "backend",
               "DocumentMoniker": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
               "RelativeDocumentMoniker": "backend.csproj",
               "ToolTip": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
               "RelativeToolTip": "backend.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-21T08:53:59.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T08:53:59.642Z"
             }
           ]
         }

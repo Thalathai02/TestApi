@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "backend.Controllers.ProdurctController",
+    "ContainingType": "backend.Module.ProductModule.Controllers.ProdurctController",
     "Method": "DeleteProduct",
     "RelativePath": "Produrct/DeleteProduct/{id}",
     "HttpMethod": "DELETE",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProdurctController",
+    "ContainingType": "backend.Module.ProductModule.Controllers.ProdurctController",
     "Method": "EditProduct",
     "RelativePath": "Produrct/EditProduct/{id}",
     "HttpMethod": "PUT",
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "tbProduct",
-        "Type": "backend.Models.TbProduct",
+        "Type": "backend.Module.ProductModule.Models.TbProduct",
         "IsRequired": true
       },
       {
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProdurctController",
+    "ContainingType": "backend.Module.ProductModule.Controllers.ProdurctController",
     "Method": "GetAllProducts",
     "RelativePath": "Produrct/GetAllProducts",
     "HttpMethod": "GET",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProdurctController",
+    "ContainingType": "backend.Module.ProductModule.Controllers.ProdurctController",
     "Method": "InsertProduct",
     "RelativePath": "Produrct/InsertProduct",
     "HttpMethod": "POST",
@@ -86,7 +86,7 @@
     "Parameters": [
       {
         "Name": "tbProduct",
-        "Type": "backend.Models.TbProduct",
+        "Type": "backend.Module.ProductModule.Models.TbProduct",
         "IsRequired": true
       }
     ],

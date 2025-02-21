@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using backend.Models;
+using backend.Module.ProductModule.Models;
 
 namespace backend.Database;
 

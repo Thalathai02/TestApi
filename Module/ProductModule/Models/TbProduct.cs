@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace backend.ViewModels;
+namespace backend.Module.ProductModule.Models;
 
-public class TbProductViewModel
+public partial class TbProduct
 {
     public int Id { get; set; }
 
-    public string ProductName { get; set; }
+    public string ProductName { get; set; } = null!;
 
     public bool? IsDelete { get; set; }
 

@@ -314,4 +314,3 @@ c:\Users\ThalathaiDev\Desktop\Git\TestApi\obj\Debug\net8.0\refint\backend.dll
 c:\Users\ThalathaiDev\Desktop\Git\TestApi\obj\Debug\net8.0\backend.pdb
 c:\Users\ThalathaiDev\Desktop\Git\TestApi\obj\Debug\net8.0\backend.genruntimeconfig.cache
 c:\Users\ThalathaiDev\Desktop\Git\TestApi\obj\Debug\net8.0\ref\backend.dll
-C:\Users\ThalathaiDev\Desktop\Git\TestApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

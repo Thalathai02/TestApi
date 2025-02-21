@@ -1,14 +1,11 @@
-using System.Linq;
 using backend.Database;
-using backend.Models;
-using Microsoft.AspNetCore.Mvc;
-using backend.ViewModels;
 
 // using backend.Installers;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using backend.Module.ProductModule.Models;
 
-namespace backend.Services
+namespace backend.Module.ProductModule.Repository
 {
     public class ProductRepository : IProductRepository
     {
@@ -34,7 +31,7 @@ namespace backend.Services
                     where EF.Functions.Like(product.Id.ToString(), "%" + keyword + "%")
                     select product).ToList();
         }
-        public Boolean InsertProduct(TbProduct tbProduct)
+        public bool InsertProduct(TbProduct tbProduct)
         {
             if (string.IsNullOrEmpty(tbProduct.ProductName))
                 throw new Exception("ProductName can't null");
@@ -61,7 +58,7 @@ namespace backend.Services
             return Models;
         }
 
-        public Boolean EditProduct(TbProduct tbProduct, int id)
+        public bool EditProduct(TbProduct tbProduct, int id)
         {
             if (string.IsNullOrEmpty(tbProduct.ProductName))
                 throw new Exception("ProductName can't null");
@@ -91,7 +88,7 @@ namespace backend.Services
         }
 
 
-        public Boolean DeleteProduct(int id)
+        public bool DeleteProduct(int id)
         {
 
             bool Models = false;
