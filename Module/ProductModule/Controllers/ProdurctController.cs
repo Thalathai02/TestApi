@@ -1,9 +1,8 @@
 using AutoMapper;
-using backend.Database;
 using Microsoft.AspNetCore.Mvc;
-using backend.Module.ProductModule.Models;
 using backend.Module.ProductModule.Repository;
-using backend.Module.ProductModule.ViewModels;
+using backend.Module.ProductModule.Models;
+using Backend.DataAccess.Entity;
 
 namespace backend.Module.ProductModule.Controllers;
 
@@ -23,10 +22,10 @@ public class ProdurctController : ControllerBase
     }
 
     [HttpGet("GetAllProducts")]
-    public List<TbProductViewModel> GetAllProducts()
+    public List<TbProductModel> GetAllProducts()
     {
         var getData = _product.GetTbProductsAll();
-        List<TbProductViewModel> products = _mapper.Map<List<TbProductViewModel>>(getData);
+        List<TbProductModel> products = _mapper.Map<List<TbProductModel>>(getData);
         return products;
     }
 

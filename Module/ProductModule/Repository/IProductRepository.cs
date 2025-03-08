@@ -1,4 +1,5 @@
 using backend.Module.ProductModule.Models;
+using Backend.DataAccess.Entity;
 
 namespace backend.Module.ProductModule.Repository
 {

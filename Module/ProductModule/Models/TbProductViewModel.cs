@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace backend.Module.ProductModule.Models;
 
-public partial class TbProduct
+public class TbProductModel
 {
     public int Id { get; set; }
 
-    public string ProductName { get; set; } = null!;
+    public string? ProductName { get; set; }
 
     public bool? IsDelete { get; set; }
 

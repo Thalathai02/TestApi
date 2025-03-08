@@ -23,7 +23,8 @@ namespace backend.Installers
                        "http://localhost:9082",
 
                        "http://localhost:3000",
-                       "http://localhost:5231"
+                       "http://localhost:5231",
+                       "http://localhost:52462"
 
                        )
                    .AllowAnyHeader()

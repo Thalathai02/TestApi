@@ -1,9 +1,11 @@
-using backend.Database;
 
-// using backend.Installers;
+using backend.Installers;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using backend.Module.ProductModule.Models;
+
+using Backend.DataAccess.Context;
+using Backend.DataAccess.Entity;
 
 namespace backend.Module.ProductModule.Repository
 {
@@ -28,7 +30,7 @@ namespace backend.Module.ProductModule.Repository
         public List<TbProduct> SearchProductById(int keyword)
         {
             return (from product in _context.TbProducts
-                    where EF.Functions.Like(product.Id.ToString(), "%" + keyword + "%")
+                    where EF.Functions.Like(product.ProductName!.ToString(), "%" + keyword + "%")
                     select product).ToList();
         }
         public bool InsertProduct(TbProduct tbProduct)
@@ -69,7 +71,7 @@ namespace backend.Module.ProductModule.Repository
 
                 TbProduct checkedId = _context.TbProducts.Find(id);
                 // checkedId
-                checkedId.UpdateBy = tbProduct.UpdateBy;
+                checkedId!.UpdateBy = tbProduct.UpdateBy;
                 checkedId.IsDelete = tbProduct.IsDelete;
                 checkedId.UpdateDate = tbProduct.UpdateDate;
                 checkedId.ProductName = tbProduct.ProductName;

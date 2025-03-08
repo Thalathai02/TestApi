@@ -1,4 +1,4 @@
-using backend.Database;
+using Backend.DataAccess.Context;
 using backend.Installers;
 using backend.Module.ProductModule.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +19,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// อ่าน Connection String
+var connectionString = builder.Configuration.GetConnectionString("ConnectionSQLServer");
 
+// ลงทะเบียน ApplicationDbContext
+builder.Services.AddDbContext<DatabaseContext>(options =>
+    options.UseSqlServer(connectionString));
+
+    
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,9 +36,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
 app.UseSwagger();
 app.UseSwaggerUI();
+
+
 app.UseCors("AllowAllOrigins");
 app.UseStaticFiles();
 

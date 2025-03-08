@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  testapi:
+    build: .
+    ports:
+      - "52462:52462"
+    environment:
+      - ASPNETCORE_URLS=http://+:52462
+    depends_on:
+      - sqlserver
+    networks:
+      - mynetwork
+   
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: serversql
+    ports:
+      # - "1433"
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - mynetwork
+
+volumes:
+  sqlserver_data:
+    driver: local
+
+networks:
+  mynetwork:
+    name: workshop
+    driver: bridge

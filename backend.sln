@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backend", "backend.csproj", "{A3E14D01-144C-433D-BD5A-3C9B36616CD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FB17019-2939-49AB-9EA1-31D57C6B40C0} = {1FB17019-2939-49AB-9EA1-31D57C6B40C0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.DataAccess", "..\Backend.DataAccess\Backend.DataAccess.csproj", "{1FB17019-2939-49AB-9EA1-31D57C6B40C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{A3E14D01-144C-433D-BD5A-3C9B36616CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E14D01-144C-433D-BD5A-3C9B36616CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E14D01-144C-433D-BD5A-3C9B36616CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB17019-2939-49AB-9EA1-31D57C6B40C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB17019-2939-49AB-9EA1-31D57C6B40C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB17019-2939-49AB-9EA1-31D57C6B40C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB17019-2939-49AB-9EA1-31D57C6B40C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

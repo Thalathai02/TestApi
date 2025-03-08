@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/TbProductViewModel"
+                    "$ref": "#/components/schemas/TbProductModel"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/TbProductViewModel"
+                    "$ref": "#/components/schemas/TbProductModel"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/TbProductViewModel"
+                    "$ref": "#/components/schemas/TbProductModel"
                   }
                 }
               }
@@ -189,21 +189,94 @@
           }
         }
       }
+    },
+    "/S3/S3PreSigned": {
+      "post": {
+        "tags": [
+          "S3"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "TbProduct": {
+      "Request": {
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "productName": {
             "type": "string",
             "nullable": true
           },
+          "url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Response": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TbProduct": {
+        "type": "object",
+        "properties": {
           "isDelete": {
             "type": "boolean",
             "nullable": true
@@ -227,11 +300,15 @@
             "type": "integer",
             "format": "int32",
             "nullable": true
+          },
+          "productName": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "TbProductViewModel": {
+      "TbProductModel": {
         "type": "object",
         "properties": {
           "id": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {}
+    "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {
+    "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\Backend.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
-        "projectName": "backend",
-        "projectPath": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\Backend.DataAccess.csproj",
+        "projectName": "Backend.DataAccess",
+        "projectPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\Backend.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ThalathaiDev\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\obj\\",
+        "outputPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,94 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+        "projectName": "backend",
+        "projectPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\backend.csproj",
+        "packagesPath": "C:\\Users\\ThalathaiDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\TestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ThalathaiDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/52511258/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\Backend.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ThalathaiDev\\Desktop\\Git\\Backend.DataAccess\\Backend.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -80,15 +165,15 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.2, )"
             },
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
@@ -118,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "tbProduct",
-        "Type": "backend.Module.ProductModule.Models.TbProduct",
+        "Type": "Backend.DataAccess.Entity.TbProduct",
         "IsRequired": true
       },
       {
@@ -66,7 +66,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[backend.ViewModels.TbProductViewModel, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[backend.Module.ProductModule.Models.TbProductModel, backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,13 +86,39 @@
     "Parameters": [
       {
         "Name": "tbProduct",
-        "Type": "backend.Module.ProductModule.Models.TbProduct",
+        "Type": "Backend.DataAccess.Entity.TbProduct",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
         "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend.Module.S3.S3Controller",
+    "Method": "S3PreSigned",
+    "RelativePath": "S3/S3PreSigned",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "backend.Module.S3.S3Model\u002BRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Module.S3.S3Model\u002BResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

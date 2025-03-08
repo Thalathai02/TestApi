@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace backend.Module.S3;
 
-public partial class S3Model
+public class S3Model
 {
     public class Request
     {
